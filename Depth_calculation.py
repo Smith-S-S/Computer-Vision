@@ -4,12 +4,13 @@ import cv2
 import cvzone
 import numpy as np
 from cvzone. FaceMeshModule import FaceMeshDetector
+# opening the webcam
 web= cv2.VideoCapture(0)
-model= FaceMeshDetector(maxFaces=1)
+model= FaceMeshDetector(maxFaces=1) #creating the model
 while True:
     success, img= web.read()
     img,face=model.findFaceMesh(img,draw=True)
-    text_page= np.zeros_like(img)
+    text_page= np.zeros_like(img) # for the black board
   
     if face:
         faced=face[0]
@@ -24,7 +25,7 @@ while True:
         #print (f)
 
         #focal length
-        """we finded finding the focal length 
+        """we 1st finding the focal length 
         so we need to comment the above"""
         #finding the distance
 
