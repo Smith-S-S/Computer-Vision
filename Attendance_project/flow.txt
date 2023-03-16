@@ -1,1 +1,2 @@
-In this project, I used a prebuilt library to take the encoding of the face and used that encoding to check the current face which face if it matches it takes the name and time of the person and creates an excel file with the name and time.
+In this project, I used a prebuilt library to take the encoding of the face and used that encoding to check the current face which face if it matches it takes the name. 
+And time of the person and creates an excel file with the name and time.
