@@ -1,6 +1,6 @@
 #in ths we use opencv and HandTrackingModuleX to take the cordinates of the hand
 # And to control the mouse we use autopy 
-
+#
 
 import cv2
 import numpy as np
